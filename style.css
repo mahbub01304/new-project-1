@@ -1,0 +1,21 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+.highlight-name{
+    color:orange;
+
+}
+.width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.width img{
+    width: 100%;
+}
