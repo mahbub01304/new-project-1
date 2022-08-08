@@ -1,10 +1,14 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 h1{
     font-size: 50px;
     
+}
+.p{
+    color: dimgray;
 }
 .highlight-name{
     color:orange;
@@ -19,3 +23,39 @@ h1{
 .width img{
     width: 100%;
 }
+.top-bannar{
+    background-image: url("photos/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.top-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,red,yellow);
+    padding: 10px 26px;
+    border-radius: 7px;
+    color: #f0f0f0;
+    font-weight: 700;
+}
+.bottom-bannar{
+    background-image:url("photos/dream-bg.png") ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 55%;
+}
+.shadow-photo{
+    background-image: url("photos/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 20px;
+    
+
+}
+
+
