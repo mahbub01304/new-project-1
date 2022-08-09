@@ -47,14 +47,29 @@ section{
 .shadow{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 55%;
+    height: 60%;
 }
 .shadow-photo{
     background-image: url("photos/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
-    padding-bottom: 20px;
-    
+    background-size: 7%;
+}
+#border-1{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#border-2{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,rgb(255, 145, 0),rgb(123, 255, 0));
+    border-image-slice: 1;
+
+
+}
+footer{
+    text-align: center;
+    font-size: 25px;
 
 }
 
